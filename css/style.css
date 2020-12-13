@@ -1,0 +1,171 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+html {
+    font-family: 'Quicksand';
+    width: 100%;
+    height: auto;
+    margin: 0 auto; }
+
+  h1 {
+    font-family: 'Quicksand';
+    font-weight: 500;
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 1.3em;
+    color: #c13f18;
+    margin-bottom: 5em; }
+
+  header {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+
+  .iconinfo {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #dadada;
+    width: 6em;
+    height: 6em;
+    border-radius: 1em;
+    -webkit-box-shadow: 0 0 10px 7px #e0e0e0;
+            box-shadow: 0 0 10px 7px #e0e0e0;
+    margin-bottom: .1em;
+    z-index: -3;
+    /* The element to apply the animation to */
+    -webkit-animation-name: example;
+            animation-name: example;
+    -webkit-animation-duration: 1.4s;
+            animation-duration: 1.4s;
+    opacity: .9; }
+  @-webkit-keyframes example {
+    0% {
+      opacity: 0; }
+    20% {
+      opacity: 0; }
+    100% {
+      opacity: .9; } }
+  @keyframes example {
+    0% {
+      opacity: 0; }
+    20% {
+      opacity: 0; }
+    100% {
+      opacity: .9; } }
+  .iconBar {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    background: #ccc;
+    width: 6em;
+    height: 6em;
+    border-radius: 1em;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .iconBar svg, .iconBar img {
+      width: 60%;
+      height: 60%;
+      -webkit-filter: grayscale(100%);
+              filter: grayscale(100%); }
+    .iconBar:hover {
+      -webkit-box-shadow: 0 8px 6px -6px #c13f18;
+              box-shadow: 0 8px 6px -6px #c13f18;
+      -webkit-transition: .2s ease-in-out;
+      -o-transition: .2s ease-in-out;
+      transition: .2s ease-in-out; }
+      .iconBar:hover img,
+      .iconBar:hover svg {
+        -webkit-filter: grayscale(0%);
+                filter: grayscale(0%);
+        -webkit-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
+        transition: .2s ease-in-out; }
+
+  #iabout img {
+    -webkit-filter: invert(50%);
+            filter: invert(50%); }
+    #iabout img:hover {
+      -webkit-filter: none;
+              filter: none;
+      -webkit-transition: .2s ease-in-out;
+      -o-transition: .2s ease-in-out;
+      transition: .2s ease-in-out; }
+
+  ul {
+    padding: 0;
+    margin: 0; }
+
+  #iihome {
+    position: absolute;
+    bottom: 6em;
+    left: 0; }
+
+  #iigallery {
+    position: absolute;
+    bottom: 6em;
+    left: 6.25em; }
+
+  #iiabout {
+    position: absolute;
+    bottom: 6em;
+    left: 12.5em; }
+
+  #iicontact {
+    position: absolute;
+    bottom: 6em;
+    right: 6.25em; }
+
+  #iistore {
+    position: absolute;
+    bottom: 6em;
+    right: 0; }
+
+  @media (max-width: 500px) {
+    .iconinfo {
+      width: 4em;
+      height: 4em; }
+
+    .iconBar {
+      width: 4em;
+      height: 4em; }
+
+    #iihome {
+      bottom: 4em; }
+
+    #iigallery {
+      bottom: 4em;
+      left: 4.15em; }
+
+    #iiabout {
+      bottom: 4em;
+      left: 8.3em; }
+
+    #iicontact {
+      bottom: 4em;
+      right: 4.15em; }
+
+    #iistore {
+      bottom: 4em; } }

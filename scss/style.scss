@@ -1,0 +1,152 @@
+html{
+    font-family: 'Quicksand';
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Quicksand';
+    font-weight: 500;
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 1.3em;
+    color: rgb(193, 63, 24);
+    margin-bottom: 5em;
+}
+header{
+    text-align:center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+}
+.iconinfo{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(218, 218, 218);
+    width: 6em;
+    height: 6em;
+    border-radius: 1em;
+    box-shadow: 0 0 10px 7px rgb(224, 224, 224);
+    margin-bottom: .1em;
+    z-index: -3;
+    @keyframes example {
+        0%  {opacity: 0;}
+        20% { opacity: 0;}      
+
+        100% { opacity: .9;}
+      }
+      
+      /* The element to apply the animation to */
+        animation-name: example;
+        animation-duration: 1.4s;
+        opacity: .9;
+}
+.iconBar{
+    display: inline-flex;
+    background: #ccc;
+    width: 6em;
+    height: 6em;
+    border-radius: 1em;
+    box-shadow: 0 8px 6px -6px black;
+    align-items: center;
+    justify-content: center;
+    svg, img{
+        width: 60%;
+        height: 60%;
+       filter: grayscale(100%);
+
+    }
+    &:hover{
+        box-shadow: 0 8px 6px -6px rgb(193, 63, 24);
+        transition: .2s ease-in-out;
+        img,
+        svg{
+        filter: grayscale(0%);
+        transition: .2s ease-in-out;
+
+        }
+
+    }
+}
+#iabout img{
+    filter: invert(50%);
+    &:hover{
+    filter: none;
+    transition: .2s ease-in-out;
+    }
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+#iihome{
+
+    position: absolute;
+    bottom: 6em;
+    left: 0;
+}
+#iigallery{
+
+    position: absolute;
+    bottom: 6em;
+    left: 6.25em;
+}
+#iiabout{
+
+    position: absolute;
+    bottom: 6em;
+    left: 12.5em;
+}
+#iicontact{
+
+    position: absolute;
+    bottom: 6em;
+    right:6.25em;
+
+}
+#iistore{
+
+    position: absolute;
+    bottom: 6em;
+    right:0;
+}
+@media(max-width:500px){
+    .iconinfo{
+        width: 4em;
+        height: 4em;
+
+    }
+    .iconBar{
+        width: 4em;
+        height: 4em;
+    }
+    #iihome{
+
+        bottom: 4em;
+    }
+    #iigallery{
+    
+        bottom: 4em;
+        left: 4.15em;
+    }
+    #iiabout{
+    
+        bottom: 4em;
+        left: 8.3em;
+    }
+    #iicontact{
+    
+        bottom: 4em;
+        right:4.15em;
+    
+    }
+    #iistore{
+    
+        bottom: 4em;
+    }
+}
