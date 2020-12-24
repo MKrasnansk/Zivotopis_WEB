@@ -17,7 +17,6 @@ $page_name = basename($_SERVER['SCRIPT_NAME'], '.php');
          name="viewport"
          content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
-      <link rel="stylesheet" href="../css/normalize.css">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="../css/style_page.css"  />
@@ -48,6 +47,10 @@ $page_name = basename($_SERVER['SCRIPT_NAME'], '.php');
                ?>
             </ul>
          </div>
+         <div class="nadpis">
+
          <?php
          echo '<h1>'. ucfirst($page_name) .'</h1>';         ?>
-      </header>
+         </div>
+
+   </header>

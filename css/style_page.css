@@ -15,25 +15,22 @@ h1, h2, h3.h4.h5.h6, p, a {
   color: #444242; }
 
 h1 {
-  margin: 0;
   color: #9a1313; }
 
 h2 {
   margin-top: 1em; }
 
 .nav {
-  display: flex;
-  position: relative;
-  top: -4em;
   width: 100%;
-  height: 100%;
   position: fixed;
   place-content: center; }
 
 header {
-  height: 2em;
   text-align: center;
   margin: 0; }
+  header h1 {
+    position: relative;
+    top: 1.8em; }
 
 i {
   font-size: .7em; }
@@ -66,24 +63,22 @@ ul, li {
   .textLeft ul strong, .textLeft li strong {
     margin-right: 2em; }
 
-a {
-  text-decoration: none; }
-
-.btn_CV {
+.btn-CV {
+  color: white;
   text-decoration: none;
-  height: 1.4em;
-  margin: 0.5em;
   padding: 0.5em;
-  background: #ccc;
+  background: #6c6c6c;
   border-radius: .1em;
-  box-shadow: 0 4px 6px -6px #781010; }
-  .btn_CV a {
-    text-decoration: none;
-    color: #781010; }
+  box-shadow: 1px 6px 6px -6px #781010; }
+  .btn-CV:hover {
+    transition: .2s ease-in;
+    background: #eb6662;
+    box-shadow: 0px 7px 6px -6px black; }
 
 .iconBar {
   display: inline-flex;
   opacity: 90%;
+  z-index: 10;
   background: #ccc;
   width: 4em;
   height: 4em;
@@ -107,29 +102,33 @@ a {
       filter: grayscale(0%);
       transition: .2s ease-in-out; }
 
-.page {
-  display: inline-block;
-  background: black;
-  width: 3em;
-  height: 3em; }
+.nadpis h1 {
+  z-index: -10; }
 
 .open {
   box-shadow: 0 8px 6px -6px #781010; }
   .open img, .open svg {
     filter: none; }
 
-.circle {
-  width: 6em;
-  height: 6em;
+.circle img {
+  width: 3em;
+  height: 3em;
   border: 1px solid #f0f0f0;
   box-shadow: 0 8px 6px -6px #2e2c2c;
   border-radius: 50%;
   padding: .3em;
   margin: 1em 1em;
   display: cover; }
-  .circle:hover {
-    box-shadow: 0 8px 6px -6px #781010; }
+  .circle img:hover {
+    box-shadow: 0 0px 11px #9b1111;
+    transition: .3s ease-in;
+    animation: rotate 3s linear infinite; }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg, 360deg); }
+  100% {
+    transform: rotate(360deg); } }
 .aktiv {
   transform: scale(3);
   background: white; }
@@ -184,12 +183,10 @@ a {
   .kontakt p {
     margin: 1em auto; }
 
-#footer {
-  height: 100px; }
-  #footer img {
-    width: 100%;
-    max-height: 2em;
-    margin: .5em auto; }
+#footer img {
+  width: 100%;
+  max-height: 2em;
+  margin: .5em auto; }
 
 @media (max-width: 600px) {
   .iconBar {
@@ -210,6 +207,6 @@ a {
     text-align: left;
     vertical-align: top;
     display: inline-block;
-    max-width: 45%; } }
+    max-width: 300px; } }
 
 /*# sourceMappingURL=style_page.css.map */

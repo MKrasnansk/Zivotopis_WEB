@@ -1,6 +1,8 @@
 <?php include '../components/header.php'; ?>
 <h1>me</h1>
-<a href="../htdocs/index.html" class="btn_CV">Structured Curriculum Vitae</a>
+<div>
+    <a class="btn-CV" href="../zivotopis/index.html">Structured Curriculum Vitae</a>
+</div>
 <section>
     <article class="home">
         <p>

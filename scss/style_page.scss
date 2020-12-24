@@ -17,25 +17,23 @@ h1,h2,h3.h4.h5.h6,p,a{
 }
 
 h1{
-    margin: 0;
     color: rgb(154, 19, 19);
 }
 h2{
     margin-top: 1em;
 }
 .nav{
-    display: flex;
-    position: relative;
-    top: -4em;
     width: 100%;
-    height: 100%;
     position: fixed;
     place-content: center;
 }
 header{
-    height: 2em;
     text-align:center;
     margin: 0;
+    h1{
+        position: relative;
+        top: 1.8em;
+    }
 }
 i{
     font-size: .7em;
@@ -78,29 +76,27 @@ ul, li{
         }
     }
 }
-a{
-    text-decoration: none;
-}
-.btn_CV{
-    a{
-        text-decoration: none;
-        color: rgb(120, 16, 16);
-    }
-    text-decoration: none;
 
-    height: 1.4em;
-    margin: 0.5em;
+.btn-CV{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
     padding: 0.5em;
-    background: #ccc;
+    background: rgb(108, 108, 108);
     border-radius: .1em;
-    box-shadow: 0 4px 6px -6px rgb(120, 16, 16);
+    box-shadow: 1px 6px 6px -6px rgb(120, 16, 16);
+    &:hover{
+        transition: .2s ease-in;
+        background: rgb(235, 102, 98);
+        box-shadow: 0px 7px 6px -6px rgb(0, 0, 0);
+
+    }
 
 }
 //CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS
 .iconBar{
     display: inline-flex;
     opacity:90%;
-
+    z-index: 10;
     background: #ccc;
     width: 4em;
     height: 4em;
@@ -127,11 +123,11 @@ a{
         }
     }
 }
-.page{
-    display: inline-block;
-    background: black;
-    width: 3em;
-    height: 3em;
+.nadpis{
+    h1{
+        z-index: -10;
+
+    }
 }
 .open{
     box-shadow: 0 8px 6px -6px rgb(120, 16, 16);
@@ -142,9 +138,9 @@ a{
    
 }
 
-.circle{
-    width: 6em;
-    height:6em;
+.circle img{
+    width: 3em;
+    height:3em;
     border: 1px solid rgb(240, 240, 240);
     box-shadow: 0 8px 6px -6px rgb(46, 44, 44);
     border-radius: 50%;
@@ -153,10 +149,22 @@ a{
     display: cover;
     
     &:hover{
-    box-shadow: 0 8px 6px -6px rgb(120, 16, 16);
-
+        box-shadow: 0 0px 11px  rgb(155, 17, 17);
+        transition: .3s ease-in;
+        animation: 
+            rotate 3s linear infinite;
     }
 
+}
+@keyframes rotate {
+    0% {
+     transform: rotate(0deg, 360deg);
+    }
+    
+    100%{
+     transform: rotate( 360deg);
+
+    }
 }
 .aktiv{
     transform: scale(3);
@@ -276,7 +284,7 @@ a{
 
 }
 //FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER 
-#footer { height: 100px;
+#footer { 
     img{
         width: 100%;
         max-height: 2em;
@@ -310,7 +318,7 @@ a{
         text-align: left;
         vertical-align: top;
         display: inline-block;
-        max-width: 45%;
+        max-width: 300px;
       
     }
 
