@@ -22,15 +22,28 @@ h1{
 }
 h2{
     margin-top: 1em;
-    margin-bottom: 0;
 }
-
+.nav{
+    display: flex;
+    position: relative;
+    top: -4em;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    place-content: center;
+}
 header{
+    height: 2em;
     text-align:center;
     margin: 0;
 }
+i{
+    font-size: .7em;
+}
 hr{
-    width: 30%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(125, 14, 14, 0.75), rgba(0, 0, 0, 0));
 }
 ul, li{
     list-style: none;
@@ -65,14 +78,33 @@ ul, li{
         }
     }
 }
+a{
+    text-decoration: none;
+}
+.btn_CV{
+    a{
+        text-decoration: none;
+        color: rgb(120, 16, 16);
+    }
+    text-decoration: none;
 
+    height: 1.4em;
+    margin: 0.5em;
+    padding: 0.5em;
+    background: #ccc;
+    border-radius: .1em;
+    box-shadow: 0 4px 6px -6px rgb(120, 16, 16);
+
+}
 //CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS CLASS
 .iconBar{
     display: inline-flex;
+    opacity:90%;
+
     background: #ccc;
-    width: 6em;
-    height: 6em;
-    border-radius: 1em;
+    width: 4em;
+    height: 4em;
+    border-radius: .5em;
     box-shadow: 0 8px 6px -6px black;
     align-items: center;
     justify-content: center;
@@ -83,14 +115,23 @@ ul, li{
 
     }
     &:hover,:focus{
+        top: .2em;
+        transform: scale(1.08);
         box-shadow: 0 8px 6px -6px rgb(209, 209, 209);
-        transition: .2s ease-in-out;
+        transition: .2s ease-in;
+        opacity: 100%;
         img,
         svg{
         filter: grayscale(0%);
         transition: .2s ease-in-out;
         }
     }
+}
+.page{
+    display: inline-block;
+    background: black;
+    width: 3em;
+    height: 3em;
 }
 .open{
     box-shadow: 0 8px 6px -6px rgb(120, 16, 16);
@@ -154,45 +195,52 @@ ul, li{
 }
 
 //CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT 
-form{
-    display: inline-block;
-    background: #ccc;
-    padding: 2em;
-    border-radius: 1em;
-    div{
-        display: inline-block;
-        vertical-align: top;
-        input{
-            border: none;
-            margin: 1em auto;
-            border-radius: 1em;
-            padding: 1em;
-            height: 3em;
-            display: block;
-            &:focus{
-                outline: none;
-            }
-        }
-    }
-    textarea{
-        border: none;
-        padding: 1em;
-        border-radius: 1em;
-        margin: 1em auto;
-        margin-left: 2em;
+// form{
+//     display: inline-block;
+//     background: #ccc;
+//     padding: 2em;
+//     border-radius: 1em;
+//     div{
+//         display: inline-block;
+//         vertical-align: top;
+//         input{
+//             border: none;
+//             margin: 1em auto;
+//             border-radius: 1em;
+//             padding: 1em;
+//             height: 3em;
+//             display: block;
+//             &:focus{
+//                 outline: none;
+//             }
+//         }
+//     }
+//     textarea{
+//         border: none;
+//         padding: 1em;
+//         border-radius: 1em;
+//         margin: 1em auto;
+//         margin-left: 2em;
 
-        &:focus{
-            outline: none;
-        }
+//         &:focus{
+//             outline: none;
+//         }
 
-    }
-}
+//     }
+// }
 .gombik{
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    place-self: center center;
+    padding: 1em;
+    border-radius: .3em;
+    text-decoration: none;
     width: 6em;
     height: 2em;
-    padding-bottom: 2em;
-    background: rgb(241, 59, 52);
     color: white;
+    background: rgb(241, 59, 52);
     box-shadow: 0 8px 6px -6px rgb(120, 16, 16);
 
     filter: grayscale(70%);
@@ -207,8 +255,8 @@ form{
     display: inline-flex;
   
     img{
-        margin: 1em;
-        width: 3em;
+        margin: .5em;
+        width: 2em;
         filter: grayscale(70%);
         &:hover, :focus{
             filter: none;
@@ -241,12 +289,15 @@ form{
 @media(max-width:600px){
 
     .iconBar{
-        width: 4em;
-        height: 4em;
+        width: 3em;
+        height: 3em;
     }
     .circle{
         width: 3em;
         height: 3em;
+    }
+    i{
+        display: block;
     }
   
     

@@ -2,7 +2,7 @@
 
 <section>
     <h2>Tvorba statického webu</h2> 
-	<p>Plne responzívna stránka (HTML5, CSS3, JS, PHP, Sass, Bootstrap)</p> 
+	<p>Plne responzívna stránka (HTML5, CSS3, JS)</p> 
 	<ul><strong>Tvorba webu obsahuje:</strong> 
         <li>Tri Návrhy</li> 
         <li>Jeden finálne vypracovaný projekt</li> 

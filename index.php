@@ -57,8 +57,7 @@
       </header>
 
       
-      
-      <script src="bower_components/jquery/dist/jquery.js"></script>
-      <script src="js/app.js"></script>
+      <script  src="js/app.js"></script>
+
    </body>
 </html>

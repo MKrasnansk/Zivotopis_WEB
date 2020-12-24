@@ -26,7 +26,7 @@ $page_name = basename($_SERVER['SCRIPT_NAME'], '.php');
    <body>
       <header>
          <div class="container">
-            <ul>
+            <ul class="nav">
 <!-- menuPHP -->
 
             <?php
