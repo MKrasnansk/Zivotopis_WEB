@@ -45,7 +45,6 @@
 <section>
     <div class="kontakt">
         <p>Tel: 0905 225 236</p>
-        <p>E-mail: <br> miso.krasnansky@gmail.com</p>
     </div>
 </section>
 
