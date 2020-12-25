@@ -148,8 +148,9 @@ ul, li {
   padding: 1em 0;
   width: 100%; }
   .prew img {
-    box-shadow: 0 8px 6px -6px #c1c1c1;
-    margin: 2em;
+    border-radius: .2em;
+    background: #f1f1f1;
+    margin: 1em;
     max-width: 10em; }
 
 .gombik {

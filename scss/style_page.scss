@@ -125,6 +125,7 @@ ul, li{
         }
     }
 }
+
 .nadpis{
     h1{
         z-index: -10;
@@ -195,8 +196,9 @@ ul, li{
     padding: 1em 0;
     width: 100%;
     img{
-        box-shadow: 0 8px 6px -6px rgb(193, 193, 193);
-        margin: 2em;
+        border-radius: .2em;
+        background: rgb(241, 241, 241);
+        margin: 1em;
         max-width: 10em;
         //     transform: scale(3);
         //     transition: .2s ease-out;

@@ -18,8 +18,7 @@
     Podstatné je len to, že už niet cesty späť. Informácie, ktoré dnes hľadám na internete, skôr či neskôr budú v mojej hlave a budú len pribúdať. Je načase ich všetky začať využívať a podeliť sa o ne.
     </p>
     <p>
-    Dnes už môžem produkovať web so všetkým, čo k tomu patrí. Vytvorenie, testovanie, publikácia na internet. Ohľadom spolupráce navštívte sekciu <a href="store.php">Store</a>
-    </p>
+    Dnes už môžem produkovať web so všetkým, čo k tomu patrí. Vytvorenie, testovanie, publikácia na internet. Ohľadom spolupráce navštívte sekciu<a href="store.php">Store.</a><p>
 </div>
 
 <div class="circle">
