@@ -43,8 +43,9 @@
 </section>
 
 <section>
-    <div class="kontakt">
-        <p>Tel: 0905 225 236</p>
+    <div class="kontakt effect4">
+        <p>Tč:</p>
+           <p> 0905 225 236</p>
     </div>
 </section>
 

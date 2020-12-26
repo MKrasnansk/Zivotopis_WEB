@@ -1,40 +1,18 @@
-(function ($) {
-$('#iihome').hide();
-$('#iigallery').hide();
-$('#iiabout').hide();
-$('#iicontact').hide();
-$('#iistore').hide();
+let napis = document.getElementsByClassName('iconBar');
+let info = document.querySelectorAll('.iconinfo');
+console.log(info);
+    for (const it of info) {
+        it.style.display = 'none';
+    }
 
 
-$("#ihome").on('mouseleave', function(){
-$('#iihome').hide(); });
-$("#ihome").on('mouseenter', function(){
-$('#iihome').slideToggle(); });
-
-$("#igallery").on('mouseleave', function(){
-$('#iigallery').hide(); });
-$("#igallery").on('mouseenter', function(){
-$('#iigallery').slideToggle(); });
-
-$("#iabout").on('mouseleave', function(){
-$('#iiabout').hide(); });
-$("#iabout").on('mouseenter', function(){
-$('#iiabout').slideToggle(); });
-    
-$("#icontact").on('mouseleave', function(){
-$('#iicontact').hide(); });
-$("#icontact").on('mouseenter', function(){
-$('#iicontact').slideToggle(); });
-    
-$("#istore").on('mouseleave', function(){
-$('#iistore').hide(); });
-$("#istore").on('mouseenter', function(){
-$('#iistore').slideToggle(); });
-    
-
-
-
-}(jQuery));
-
-
-
+for (let mouse of napis) {
+    mouse.addEventListener('mouseover', function(){
+        let sused = mouse.nextElementSibling;
+        sused.style.display = 'inline-flex';
+    });
+    mouse.addEventListener('mouseout', function(){
+        let sused = mouse.nextElementSibling;
+        sused.style.display = 'none';
+    });
+}

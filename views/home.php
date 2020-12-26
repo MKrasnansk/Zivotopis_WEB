@@ -22,11 +22,11 @@
 </div>
 
 <div class="circle">
-    <img class="" src="../img/logofe.svg" alt="">
-    <img class="" src="../img/logo_black.svg" alt="">
-    <img class="" src="../img/dzjn_logo.svg" alt="">
-    <img class="" src="../img/moii_web.svg" alt="">
-    <img class="" src="../img/FE.svg" alt="">
+    <img src="../img/logofe.svg" alt="">
+    <img src="../img/logo_black.svg" alt="">
+    <img src="../img/dzjn_logo.svg" alt="">
+    <img src="../img/moii_web.svg" alt="">
+    <img src="../img/FE.svg" alt="">
 
 </div>
 

@@ -22,23 +22,23 @@
 <section>
     <article class="home">
         <p>
-        Programovaniu sa venujem už viac ako rok. Vždy ma lákalo, no nebol čas sa mu venovať. Takto pred rokom som objavil rôzne kurzy, ktoré mi cestu k programovaniu vedia zjednodušiť a sú dokonca zadarmo. Začal som s back-endom a prvá bola Java. Vtedy som toho o programovaní ešte veľa nevedel. Potom mi niekto povedal, že keď programovací jazyk tak určite C#. Prešiel som si teda základy aj odtiaľ. Popravde, veľmi ma neočaril. Jednoznačne som chcel tvoriť hneď od začiatku vizuál. Po krátkej pauze som si čo to prečítal, popýtal sa a vytvoril si detailný učebný plán, ktorý obsahuje všetko, čo ma zaujíma a zároveň je potrebné vedieť.
+        Programovaniu sa venujem už viac ako rok. Vždy ma lákalo, no nebol čas sa mu venovať. Takto pred rokom som objavil rôzne kurzy, ktoré mi cestu k programovaniu vedia zjednodušiť a niektoré sú dokonca zadarmo. Začal som s back-endom a prvá bola Java. Vtedy som toho o programovaní ešte veľa nevedel. Potom mi niekto povedal, že keď programovací jazyk tak určite C#. Prešiel som si teda základy aj odtiaľ. Popravde, veľmi ma neočaril. Jednoznačne som chcel tvoriť hneď od začiatku vizuál. Čo to som si prečítal, popýtal sa a vytvoril si detailný učebný plán, ktorý obsahuje všetko, čo ma zaujíma a zároveň je potrebné vedieť.
 	        <br><br>
 
-            Zaujímajú ma skôr front-endové nástroje, tá vizuálna stránka má láka akosi viac. No verím, že v budúcnosti ma to bude ťahať aj trošku do back-endu. Študoval som na umeleckej škole UAT. Vtedajší odbor Počítačová grafika je dnes Grafický dizajn. Všetko sa posúva dopredu a je stále čo študovať. Preto som si napríklad prešiel aj kurzom Digitálne obrazovky a UX dizajn.
+            Zaujímajú ma skôr front-endové nástroje, tá vizuálna stránka má láka akosi viac. No verím, že v budúcnosti ma to bude ťahať aj trošku do back-endu. Študoval som na umeleckej škole UAT. Vtedajší odbor Počítačová grafika je dnes Grafický dizajn. Všetko sa posúva dopredu a je stále čo študovať. Preto som si napríklad prešiel aj kurzom Digitálne obrazovky, UX dizajn alebo Illustrator/Photoshop - Advance.
 	    </p>
 
         <p>
-        Môj plán bol jasný, základy sú prvoradé a pekne som začal s HTML a CSS. Teraz si myslím, že som už na pokročilej úrovni ale určite nie som ešte žiadny majster. Som presvedčený, že stále existujú veci, ktoré sa mi ešte len odhalia. Ďalším krokom bol JavaScript, ku ktorému chovám veľký rešpekt, je to španielska dedina. Dosť som sa mu vyhýbal a radšej som si najskôr prešiel kurzy ako Sass, Bootstrap a samozrejme som si dal aj základy OOP.
+        Môj plán bol jasný, základy sú prvoradé a pekne som začal s HTML a CSS. Teraz si myslím, že som už na pokročilej úrovni ale určite nie som ešte žiadny majster. Som presvedčený, že stále existujú veci, ktoré sa mi ešte len odhalia. Ďalším krokom bol JavaScript, ku ktorému chovám veľký rešpekt. Dosť som sa mu vyhýbal a radšej som si najskôr prešiel kurzy ako Sass, Bootstrap a základy OOP.
             <img class="articIMG" src="../img/photo/ucrfin.png" alt="">
         </p>
         <hr>
         <p>
-        Prešiel som si kurzom Angular na lear2code, ktorému sa chcem asi najviac venovať, úprimne moc ma ten kurz nenadchol. V Angulare som si počas kurzu spravil funkčnú aplikáciu na vyhľadávanie a prehrávanie hudby s iTunes. No musím ešte čo to podoháňať v JavaScripte teda TypeScripte. Zatiaľ som v tom dosť stratený. Veľmi mi pomáhajú kurzy na itnetwork.cz, kde si môžem svoje vedomosti rovno odtestovať.
+        Prešiel som si kurzom Angular na lear2code, ktorému sa chcem asi najviac venovať, úprimne moc ma ten kurz nenadchol. V Angulare som si počas kurzu spravil funkčnú aplikáciu na vyhľadávanie a prehrávanie hudby s iTunes. No musím ešte čo to podoháňať v JavaScripte. 
 	    </p>
 
         <p>
-        Ďalšie kurzy, ktorým som sa venoval a stále venujem: Webrebel HTML/CSS/JS, GIT, Webrebel PHP, JavaScript, Sass, Bootstrap, TypeScript.
+        Ďalšie kurzy, ktorým som sa venoval a stále venujem: HTML5, CSS3, ES6, Node.js, GIT, PHP, Sass, Bootstrap, Tailwind, OOP, TypeScript.
 	    </p>
 
 
@@ -50,10 +50,13 @@
     </h2>
     <ul class="textLeft">
         <li><strong>Angular</strong> - Ovládam základy používania. Súvislosti, vytváranie komponentov, servisov..</li>
-        <li><strong>JavaScript</strong> - Ovládam na mierne pokročilej úrovni. Viem ovládať selektory, používať funkcie, vkladanie a odstraňovanie obsahu. Čo my v hlave chyba viem dohľadať na internete.</li>
-        <li><strong>HTML5/CSS3</strong> - Pokročila úroveň. Stále sa zdokonaľujem.</li>
+        <li><strong>JavaScript</strong> - Ovládam na mierne pokročilej úrovni.</li>
+        <li><strong>Node.js</strong> - Základy. </li>
+        <li><strong>Git</strong> - Základy. </li>
+        <li><strong>npm</strong> - Základy. </li>
+        <li><strong>HTML5/CSS3</strong> - Pokročila úroveň.</li>
         <li><strong>Sass</strong> - Používateľská úroveň. Veľmi dobre sa mi sním pracuje je to šikovne a prehľadne.</li>
-        <li><strong>Bootstrap</strong> - Používateľská úroveň. Viem pracovať aj s týmto frameworkom no nie je mi moc sympatický. Radšej si stránky nadstavujem sám.</li>
+        <li><strong>Bootstrap/Tailwind</strong> - Používateľská úroveň. Viem pracovať aj s týmito frameworkami no nie je mi moc sympatické. Radšej si stránky nadstavujem sám.</li>
     </ul>
 
 </section>
