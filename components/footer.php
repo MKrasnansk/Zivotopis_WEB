@@ -9,6 +9,7 @@
       
       <script src="../node_modules/animejs/lib/anime.min.js"></script>
       <script src="../bower_components/jquery/dist/jquery.js"></script>
+      <script src="../js/jquery-color-animation.js"></script>
       <script src="../js/app_page.js"></script>
    </body>
 </html>

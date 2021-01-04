@@ -140,20 +140,21 @@ ul, li {
     filter: none;
     transition: .2s ease-in-out; }
 
+ul {
+  color: #e97c7c #ffffff royalblue; }
+
 .prew {
   display: inline-block;
   padding: 1em 0;
   width: 100%; }
   .prew img {
+    outline: 1px solid red;
     border-radius: .2em;
     background: #f1f1f1;
     margin: 1em;
-    max-width: 10em; }
-  .prew:select {
-    z-index: 10; }
-
-.dole {
-  z-index: 10; }
+    width: 10em; }
+  .prew .otvor {
+    width: 100%; }
 
 .gombik {
   place-self: center center;
