@@ -172,6 +172,7 @@ ul {
   color: current;
   text-decoration: none; }
   .linkzz:hover {
+    cursor: pointer;
     background: #ccc;
     transition: .2s ease-in-out; }
 
@@ -335,7 +336,13 @@ footer {
     height: 2em; }
 
   i {
-    display: block; } }
+    display: block; }
+
+  .gallery-nav ul {
+    place-content: center;
+    display: block; }
+    .gallery-nav ul li {
+      margin-bottom: 1em; } }
 @media (min-width: 600px) {
   article {
     text-align: center; }

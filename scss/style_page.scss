@@ -227,6 +227,7 @@ ul{
         color: current;
         text-decoration: none;
         &:hover{
+            cursor: pointer;
             background: #ccc;
             transition: .2s ease-in-out;
         }
@@ -436,7 +437,15 @@ footer{
     i{
         display: block;
     }
-  
+    .gallery-nav{
+        ul{
+            place-content: center;
+            display: block;
+            li{
+                margin-bottom: 1em;
+            }
+        }
+    }
     
 }
 @media(min-width: 600px){

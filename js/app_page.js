@@ -40,11 +40,14 @@ let colors = [ '#3b9ae1', '#f6be00', '#e64134', '#eb70b1', '#0f1a5f', '#e97c7c',
 
 
 $('.prew img')
+
   .css({position: 'relative'})
   .on('click', function(){
+    
    let e = $(this),
    className = 'otvor';
    e.toggleClass(className);
+   e.siblings().removeClass(className).fadeToggle();
   });
    
 $('.prew img')
@@ -52,7 +55,7 @@ $('.prew img')
     if ($(this).is(':animated')) return;
 
     let newColor = colors[Math.floor(Math.random() * colors.length)];
-    $(this).animate({backgroundColor: newColor},1000);
+    $(this).animate({backgroundColor: newColor},500);
   });
 
   //galeria menu
