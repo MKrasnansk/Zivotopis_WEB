@@ -1,10 +1,28 @@
 <?php include '../components/header.php'; ?>
-
-<section>
-    <!-- logo -->
-    <h2>Logo</h2>
+<!-- galeri-nav -->
+<div class="gallery-nav">
+        <ul>
+            <li data-from="Left"><a class="gal-activ" href="#links">Code Links</a></li>
+            <li data-from="Right"><a href="#logo">Logo</a></li>
+            <li data-from="Left"><a href="#static-web">Static web</a></li>
+            <li data-from="Right"><a href="#single-page">Single page</a></li>
+        </ul>
+    </div>
+    <section id="links" class="gallery-set">
     <hr>
-    <div class="gallery-box">
+    <div class="prew">
+        <ul>
+            <li class="linkzz"><a href="#"></a>iTunes - Angular source code</li>
+            <li class="linkzz"><a href="#"></a>Pilates - Web</li>
+            <li class="linkzz"><a href="#"></a>Auto-service - Web</li>
+            <li class="linkzz"><a href="#"></a>CV</li>
+            <li class="linkzz"><a href="#"></a>Old CV - Web</li>
+        </ul>
+    </div>
+</section>
+    <!-- logo -->
+    <section  id="logo" class="gallery-set">
+    <hr>
         <div class="prew">
                 <img src="../img/FE.svg" alt="">
                 <img src="../img/mk_dark.svg"  alt="">
@@ -13,12 +31,9 @@
                 <img src="../img/logo_black.svg"  alt="">
                 <img src="../img/logofe.svg"  alt="">
         </div>
-    </div>
 </section>
-
-<section>
     <!-- static web -->
-    <h2>Staticky web</h2>
+    <section id="static-web" class="gallery-set" >
     <hr>
     <div class="prew">
                 <img src="../img/pilates.jpg" alt="">
@@ -26,18 +41,8 @@
                 <img src="../img/web3.png"  alt="">
         </div>
 </section>
-
-<section>
-    <!-- dizajn -->
-</section>
-
-<section>
-    <!-- 3d -->
-</section>
-
-<section>
     <!-- aplication -->
-    <h2>Single page</h2>
+<section id="single-page" class="gallery-set">
     <hr>
     <div class="prew">
         <img src="../img/itunes_angular.jpg" alt="">

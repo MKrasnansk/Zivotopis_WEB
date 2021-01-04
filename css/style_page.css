@@ -143,13 +143,73 @@ ul, li {
 ul {
   color: #e97c7c #ffffff royalblue; }
 
+.gallery-nav {
+  margin-top: 3em; }
+  .gallery-nav ul {
+    place-content: center;
+    display: flex; }
+    .gallery-nav ul li a {
+      border: 1px solid #ccc;
+      border-radius: .2em;
+      padding: 0.2em .5em;
+      color: current;
+      text-decoration: none; }
+      .gallery-nav ul li a:hover {
+        background: #ccc;
+        transition: .3s ease-in-out; }
+
+.gal-activ a {
+  background: #ccc; }
+
+.linkzz {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: .2em;
+  padding: 0.2em .5em;
+  color: current;
+  text-decoration: none; }
+  .linkzz:hover {
+    background: #ccc;
+    transition: .2s ease-in-out; }
+
+.fadeInLeft,
+.fadeInRight {
+  animation: 0.6s both; }
+
+.fadeInLeft {
+  animation-name: fadeLeft; }
+
+@keyframes fadeLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-1000px); }
+  20% {
+    opacity: 0; }
+  100% {
+    opacity: 1;
+    transform: translateX(0px); } }
+.fadeInRight {
+  animation-name: fadeRight; }
+
+@keyframes fadeRight {
+  0% {
+    opacity: 0;
+    transform: translateX(1000px); }
+  20% {
+    opacity: 0; }
+  100% {
+    opacity: 1;
+    transform: translateX(0px); } }
 .prew {
   display: inline-block;
   padding: 1em 0;
   width: 100%; }
   .prew img {
-    outline: 1px solid red;
-    border-radius: .2em;
+    cursor: pointer;
+    border-radius: 1em;
     background: #f1f1f1;
     margin: 1em;
     width: 10em; }
@@ -240,7 +300,6 @@ ul {
   transform: rotate(3deg); }
 
 footer {
-  border-top: 3px solid black;
   color: #f0f0f0;
   line-height: 1.3em;
   text-shadow: 1px 1px 1px #531604;

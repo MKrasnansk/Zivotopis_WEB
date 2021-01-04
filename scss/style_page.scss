@@ -190,14 +190,77 @@ ul{
 
 //GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY 
 
+.gallery-nav{
+    margin-top: 3em;
+    ul{
+        place-content: center;
+        display: flex;
+        li{
+            a{
+                border: 1px solid #ccc;
+                border-radius: .2em;
+                padding:0.2em .5em;
+                color: current;
+                text-decoration: none;
+                &:hover{
+                    background: #ccc;
+                    transition: .3s ease-in-out;
+                }
+            }
+        }
+    }    
+}
+.gal-activ{
+    a{
+        background: #ccc;
+
+    }
+}
+.linkzz{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+        border: 1px solid #ccc;
+        border-radius: .2em;
+        padding:0.2em .5em;
+        color: current;
+        text-decoration: none;
+        &:hover{
+            background: #ccc;
+            transition: .2s ease-in-out;
+        }
+}
+.fadeInLeft,
+.fadeInRight{
+    animation: .6s both ;
+}
+.fadeInLeft{
+    animation-name: fadeLeft;
+}
+@keyframes fadeLeft {
+    0%{opacity: 0; transform: translateX(-1000px);}
+    20%{opacity: 0;}
+    100%{opacity: 1; transform: translateX(0px);}
+}
+.fadeInRight{
+    animation-name: fadeRight;
+}
+@keyframes fadeRight {
+    0%{opacity: 0; transform: translateX(1000px);}
+    20%{opacity: 0;}
+    100%{opacity: 1; transform: translateX(0px);}
+}
+
+
 
 .prew{
     display: inline-block;
     padding: 1em 0;
     width: 100%;
     img{
-        outline: 1px solid red;
-        border-radius: .2em;
+        cursor: pointer;
+        border-radius: 1em;
         background: rgb(241, 241, 241);
         margin: 1em;
         width: 10em;
@@ -320,7 +383,6 @@ ul{
 
 //FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER 
 footer{ 
-    border-top: 3px solid black;
     color: rgb(240, 240, 240);
     line-height: 1.3em;
     text-shadow: 1px 1px 1px rgb(83, 22, 4);
