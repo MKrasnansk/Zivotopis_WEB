@@ -184,7 +184,9 @@ ul, li{
 
     }
 }
-
+ul{
+    color: #e97c7c #ffffff royalblue;
+}
 
 //GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY 
 
@@ -194,20 +196,15 @@ ul, li{
     padding: 1em 0;
     width: 100%;
     img{
-        
+        outline: 1px solid red;
         border-radius: .2em;
         background: rgb(241, 241, 241);
         margin: 1em;
-        max-width: 10em;
-       
+        width: 10em;
     }
-    &:select{
-        z-index: 10;
-    }
-
+.otvor{
+    width: 100%;
 }
-.dole{
-    z-index: 10;
 }
 //CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT 
 .gombik{
