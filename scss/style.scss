@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 html{
     font-family: 'Quicksand';
     width: 100%;
@@ -21,19 +28,34 @@ header{
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) ;
+    -webkit-transform: translate(-50%, -50%) ;
+        -ms-transform: translate(-50%, -50%) ;
+            transform: translate(-50%, -50%) ;
 }
 .iconinfo{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background: rgb(218, 218, 218);
     width: 6em;
     height: 6em;
     border-radius: 1em;
-    box-shadow: 0 0 10px 7px rgb(224, 224, 224);
+    -webkit-box-shadow: 0 0 10px 7px rgb(224, 224, 224);
+            box-shadow: 0 0 10px 7px rgb(224, 224, 224);
     margin-bottom: .1em;
     z-index: -3;
+    @-webkit-keyframes example {
+        0%  {opacity: 0;}
+        20% { opacity: 0;}      
+
+        100% { opacity: .9;}
+      }
     @keyframes example {
         0%  {opacity: 0;}
         20% { opacity: 0;}      
@@ -42,31 +64,47 @@ header{
       }
       
       /* The element to apply the animation to */
-        animation-name: example;
-        animation-duration: 1.4s;
+        -webkit-animation-name: example;
+                animation-name: example;
+        -webkit-animation-duration: 1.4s;
+                animation-duration: 1.4s;
         opacity: .9;
 }
 .iconBar{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     background: #ccc;
     width: 6em;
     height: 6em;
     border-radius: 1em;
-    box-shadow: 0 8px 6px -6px black;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     svg, img{
         width: 60%;
         height: 60%;
-       filter: grayscale(100%);
+       -webkit-filter: grayscale(100%);
+               filter: grayscale(100%);
 
     }
     &:hover{
-        box-shadow: 0 8px 6px -6px rgb(193, 63, 24);
+        -webkit-box-shadow: 0 8px 6px -6px rgb(193, 63, 24);
+                box-shadow: 0 8px 6px -6px rgb(193, 63, 24);
+        -webkit-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
         transition: .2s ease-in-out;
         img,
         svg{
-        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+                filter: grayscale(0%);
+        -webkit-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
         transition: .2s ease-in-out;
 
         }
@@ -74,9 +112,13 @@ header{
     }
 }
 #iabout img{
-    filter: invert(50%);
+    -webkit-filter: invert(50%);
+            filter: invert(50%);
     &:hover{
-    filter: none;
+    -webkit-filter: none;
+            filter: none;
+    -webkit-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
     transition: .2s ease-in-out;
     }
 }
