@@ -6,7 +6,7 @@
 <section>
     <article class="home">
         <p>
-        Ešte som bol krpec keď otec priniesol 486 a pracovalo sa v DOS-e, kde mamina, ako pani riaditeľka, potrebovala namiesto stroja písať na PC v T602 a samozrejme ja som nesmel chýbať. Naučil som sa používať PC s operačným systémom DOS. Neskôr sme mali aj Windows a už to začalo. Pamätám si, že som skúšal všeličo, ani testovanie BIOS-u nebol pre mňa žiadny problém, len občas musel prísť servisák.
+        Ešte som bol krpec keď otec priniesol 486-stku a operačný system bol DOS, kde mamina, ako pani riaditeľka škôlky, potrebovala namiesto stroja písať na PC v T602(Vtedajší "word") a samozrejme ja som nesmel chýbať. Naučil som sa používať PC s operačným systémom DOS. Neskôr sme mali aj Windows a už to začalo. Pamätám si, že som skúšal všeličo, ani testovanie BIOS-u nebol pre mňa žiadny problém, len občas musel prísť servisák.
 
         <img class="articIMG" src="../img/photo/surf.png" alt="">
 
@@ -44,19 +44,23 @@
 
     </article>
 </section>
-<section>
+<section class="textLeft">
     <h2>
     Zručnosti & vedomosti
     </h2>
-    <ul class="textLeft">
-        <li><strong>Angular</strong> - Ovládam základy používania. Súvislosti, vytváranie komponentov, servisov..</li>
-        <li><strong>JavaScript</strong> - Ovládam na mierne pokročilej úrovni.</li>
-        <li><strong>Node.js</strong> - Základy. </li>
-        <li><strong>Git</strong> - Základy. </li>
-        <li><strong>npm</strong> - Základy. </li>
-        <li><strong>HTML5/CSS3</strong> - Pokročila úroveň.</li>
-        <li><strong>Sass</strong> - Používateľská úroveň. Veľmi dobre sa mi sním pracuje je to šikovne a prehľadne.</li>
-        <li><strong>Bootstrap/Tailwind</strong> - Používateľská úroveň. Viem pracovať aj s týmito frameworkami no nie je mi moc sympatické. Radšej si stránky nadstavujem sám.</li>
+    <ul>
+        <li><span>Angular</span> - Ovládam základy používania. Súvislosti, vytváranie komponentov, servisov..</li>
+        <li><span>TupeScript</span> - Ovládam základy.</li>
+        <li><span>JavaScript</span> - Ovládam na mierne pokročilej úrovni.</li>
+        <li><span>jQuery</span> - Ovládam na mierne pokročilej úrovni.</li>
+        <li><span>Node.js</span> - Základy. </li>
+        <li><span>Express</span> - Základy. </li>
+        <li><span>API</span> - Základy. </li>
+        <li><span>npm</span> - Základy. </li>
+        <li><span>Git</span> - Základy. </li>
+        <li><span>HTML5/CSS3</span> - Pokročila úroveň.</li>
+        <li><span>Sass</span> - Používateľská úroveň.</li>
+        <li><span>Bootstrap/Tailwind</span> - Používateľská úroveň. Viem pracovať aj s týmito frameworkami no nie je mi moc sympatické. Radšej si stránky nadstavujem sám.</li>
     </ul>
 
 </section>

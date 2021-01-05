@@ -4,13 +4,22 @@ html {
   margin: 0 auto; }
 
 body {
+  width: 100%;
   margin: 0;
+  min-height: 100%;
   text-align: center; }
 
 section {
   padding: 1em; }
 
-h1, h2, h3, h4, h5, h6, p, a {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
   padding: .5em;
   font-family: 'Quicksand';
   color: #444242; }
@@ -42,7 +51,8 @@ hr {
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(125, 14, 14, 0.75), rgba(0, 0, 0, 0)); }
 
-ul, li {
+ul,
+li {
   list-style: none;
   padding: 0;
   margin: 0.1em; }
@@ -59,11 +69,18 @@ ul, li {
   width: 100%;
   display: inline-block; }
 
-.textLeft ul, .textLeft li {
-  text-align: left;
-  margin-left: 3em; }
-  .textLeft ul strong, .textLeft li strong {
-    margin-right: 2em; }
+.textLeft ul {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 3em; }
+  .textLeft ul li {
+    justify-content: center;
+    text-align: left; }
+    .textLeft ul li span {
+      font-weight: bold; }
 
 .btn-CV {
   color: white;
@@ -90,18 +107,21 @@ ul, li {
   align-items: center;
   justify-content: center;
   transition: .4s; }
-  .iconBar svg, .iconBar img {
+  .iconBar svg,
+  .iconBar img {
     width: 60%;
     height: 60%;
     filter: grayscale(100%); }
-  .iconBar:hover, .iconBar :focus {
+  .iconBar:hover,
+  .iconBar :focus {
     top: .2em;
     transform: scale(1.08);
     box-shadow: 0 8px 6px -6px #d1d1d1;
     transition: .2s ease-in;
     opacity: 100%; }
     .iconBar:hover img,
-    .iconBar:hover svg, .iconBar :focus img,
+    .iconBar:hover svg,
+    .iconBar :focus img,
     .iconBar :focus svg {
       filter: grayscale(0%);
       transition: .2s ease-in-out; }
@@ -111,10 +131,12 @@ ul, li {
 
 .open {
   box-shadow: 0 8px 6px -6px #781010; }
-  .open img, .open svg {
+  .open img,
+  .open svg {
     filter: none; }
 
 .circle {
+  margin-bottom: 3em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
   .circle svg {
@@ -158,27 +180,31 @@ ul {
         background: #ccc;
         transition: .3s ease-in-out; }
 
+.code:before {
+  content: "< "; }
+.code:after {
+  content: " >"; }
+
 .gal-activ a {
   background: #ccc; }
 
-.linkzz {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  width: 50%;
-  border: 1px solid #ccc;
-  border-radius: .2em;
-  padding: 0.2em .5em;
-  color: current;
-  text-decoration: none; }
-  .linkzz:hover {
-    cursor: pointer;
-    background: #ccc;
-    transition: .2s ease-in-out; }
+.linkzz li {
+  display: flex; }
+  .linkzz li a {
+    margin: 0 auto;
+    min-width: 50%;
+    border: 1px solid #ccc;
+    border-radius: .2em;
+    padding: 0.2em .5em;
+    color: current;
+    text-decoration: none; }
+    .linkzz li a:hover {
+      background: #ccc;
+      transition: .2s ease-in-out; }
 
 .fadeInLeft,
 .fadeInRight {
-  animation: 0.6s both; }
+  animation: .6s both; }
 
 .fadeInLeft {
   animation-name: fadeLeft; }
@@ -232,7 +258,8 @@ ul {
   .gombik a {
     text-decoration: none;
     color: white; }
-  .gombik:hover, .gombik :focus {
+  .gombik:hover,
+  .gombik :focus {
     filter: none;
     transition: .2s ease-in; }
 
@@ -301,14 +328,19 @@ ul {
   transform: rotate(3deg); }
 
 footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   color: #f0f0f0;
-  line-height: 1.3em;
   text-shadow: 1px 1px 1px #531604;
-  vertical-align: middle;
-  margin: 0;
-  margin-top: .5em;
   padding: 0.5em;
   background: linear-gradient(rgba(64, 16, 4, 0.707), #e0561f); }
+  footer i {
+    padding: 1em; }
+    footer i:last-of-type {
+      padding-right: 0; }
 
 .hub {
   display: inline-block;
@@ -331,9 +363,11 @@ footer {
     width: 3em;
     height: 3em; }
 
-  .circle img {
-    width: 2em;
-    height: 2em; }
+  .circle {
+    margin-bottom: 6em; }
+    .circle img {
+      width: 2em;
+      height: 2em; }
 
   i {
     display: block; }
@@ -342,7 +376,22 @@ footer {
     place-content: center;
     display: block; }
     .gallery-nav ul li {
-      margin-bottom: 1em; } }
+      margin-bottom: 1em; }
+
+  .textLeft ul {
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5em; }
+    .textLeft ul li {
+      justify-content: center; }
+      .textLeft ul li span {
+        font-weight: bold; }
+
+  footer {
+    display: block; }
+    footer i {
+      padding: 0; } }
 @media (min-width: 600px) {
   article {
     text-align: center; }
